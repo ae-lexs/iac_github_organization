@@ -1,6 +1,6 @@
 # iac_github_organization
 
-Infrastructure as Code for a GitHub organization
+Infrastructure as Code for a GitHub organization.
 
 ## Requirements
 
@@ -22,18 +22,13 @@ terraform get
 
 ## Module Documentation
 
+- [github_repository](./modules/github_repository/README.md)
 
 ## Inputs
 
 | Name           | Description       | Type   | Default | Required |
 | :---:          | :---:             | :---:  | :---:   | :---:    |
-| Input Name | Input description | string | -       | :heavy_check_mark: |
-
-## Outputs
-
-| Name                            | Description           |
-| :---:                           | :---:                 |
-| Output name     | Output description   |
+| github_token | GitHub with the access to apply all the terraform configuration of the project | string | -       | :heavy_check_mark: |
 
 ## License
 
