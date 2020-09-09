@@ -1,6 +1,6 @@
 # github_repository
 
-**github_repository** is a **Terraform** module to create a new repositories in a specifi organization.
+**github_repository** is a **Terraform** module to creates a new GitHub repository.
 
 ## Requirements
 

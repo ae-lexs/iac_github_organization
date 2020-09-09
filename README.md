@@ -2,9 +2,17 @@
 
 Infrastructure as Code for a GitHub organization.
 
+[TerraformOrgTest](https://github.com/TerraformOrgTest) is an example of the output of this project. 
+
 ## Requirements
 
 - [Terraform >= v0.12.28](https://www.terraform.io/downloads.html)
+- [GitHub Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) with the following permissions:
+  - admin:org
+  - admin:public_key
+  - delete_repo
+  - repo
+  - user 
 
 ## Installation
 
